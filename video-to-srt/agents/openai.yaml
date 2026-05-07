@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video to SRT"
+  short_description: "Generate and correct timestamp-aligned SRT"
+  default_prompt: "Use $video-to-srt to generate a local video's SRT subtitles and correct obvious Chinese transcription errors without changing timestamps."
