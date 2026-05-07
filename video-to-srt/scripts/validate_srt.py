@@ -67,7 +67,7 @@ def main() -> int:
             raise SystemExit(f"[error] cue {cue_id} 不是单行字幕。")
         if visible_length(text_lines[0]) > args.max_line_length:
             raise SystemExit(
-                f"[error] cue {cue_id} 超过 {args.max_line-length} 字: {text_lines[0]}"
+                f"[error] cue {cue_id} 超过 {args.max_line_length} 字: {text_lines[0]}"
             )
 
     print(
